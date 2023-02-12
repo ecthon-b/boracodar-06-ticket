@@ -1,7 +1,9 @@
+import { Ticket } from "./Ticket";
+
 export default function Home() {
   return (
     <>
-    <h1>Hello</h1>
+      <Ticket />
     </>
   )
 }
