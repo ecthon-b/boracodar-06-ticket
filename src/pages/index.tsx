@@ -1,4 +1,4 @@
-import { Ticket } from "./Ticket";
+import Ticket from "./Ticket";
 import styles from '../styles/home.module.scss';
 
 export default function Home() {
