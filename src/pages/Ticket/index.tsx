@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 import { Divider } from '@/components/Divider'
 import { IoIosAirplane } from 'react-icons/io'
 
-export function Ticket() {
+export default function Ticket() {
     return (
         <div className={styles.container}>
 
