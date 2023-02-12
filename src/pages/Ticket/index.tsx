@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './styles.module.scss'
 import { Divider } from '@/components/Divider'
+import { IoIosAirplane } from 'react-icons/io'
 
 export function Ticket() {
     return (
@@ -12,7 +13,7 @@ export function Ticket() {
                     <p>Voo</p>
                     <span>SSR722</span>
                 </div>
-                
+
                 <div className={styles['voo-date']}>
                     <p>Data</p>
                     <span>16/02/2023</span>
@@ -27,13 +28,13 @@ export function Ticket() {
 
                 <div className={styles['code-airports']}>
                     <span>GRU</span>
-                    <p>-</p>
+                    <IoIosAirplane size={32} />
                     <span>SFO</span>
                 </div>
 
                 <div className={styles.hours}>
                     <p>17:00</p>
-                    <p>04:48</p>
+                    <p>04:48<sup>+1</sup></p>
                 </div>
             </div>
 
@@ -42,7 +43,7 @@ export function Ticket() {
             <div className={styles['passenger-data']}>
                 <div>
                     <p>Passageiro</p>
-                    <span>Assento</span>
+                    <span>Ecthon B S Almeida</span>
                 </div>
                 <div className={styles.assento}>
                     <p>Assento</p>
