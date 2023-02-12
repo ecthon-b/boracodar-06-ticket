@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './styles.module.scss'
+import { Divider } from '@/components/Divider'
 
 export function Ticket() {
     return (
@@ -36,6 +37,8 @@ export function Ticket() {
                 </div>
             </div>
 
+            <Divider />
+
             <div className={styles['passenger-data']}>
                 <div>
                     <p>Passageiro</p>
@@ -46,6 +49,8 @@ export function Ticket() {
                     <span>28A</span>
                 </div>
             </div>
+
+            <Divider />
 
             <div className={styles.footer}>
                 <div className={styles['column-right']}>
